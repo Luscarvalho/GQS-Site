@@ -196,8 +196,10 @@ a {
   width: 100%;
 }
 
-.prox {
-  background-color: #452d72;
-  border-radius: 10px;
-  padding: 20px;
+.about {
+  height: 710px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
