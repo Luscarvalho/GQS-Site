@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  background-color: #8362c2;
+  color: azure;
+}
+
+body {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #8362c2;
+  color: azure;
+}
+
+.inicio {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/Styles/Images/back.svg) #8362c2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: azure;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 5px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+.ativo {
+  border-radius: 10px;
+  background-color: #452d72;
+}
+
+/* Imagens */
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.img1 {
+  width: 520px;
+  height: 520px;
+}
+
+/* Posicionamento de Divs */
+
+#dir {
+  margin-right: 120px;
+}
+
+#esq {
+  margin-left: 120px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  border: 5px;
+  padding: 20px;
+  background-color: #452d72;
+  height: 210px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px 0 10px;
+}
+
+.buttons:hover {
+  box-shadow: 0 0 20px #2a1849;
+}
+
+.image-text {
+  display: flex;
+  text-align: justify;
+}
+
+.divisor {
+  width: 50%;
+  margin: 0 5px 0 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.referencia {
+  text-align: start;
+  margin: 0 125px 50px 125px;
+}
+
+/* Textos */
+
+strong {
+  background-color: #452d72;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  background-color: #8362c2;
+  color: azure;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.title1 {
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+#texto1 {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+#texto2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
