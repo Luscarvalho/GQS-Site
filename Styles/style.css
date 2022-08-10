@@ -31,7 +31,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(Styles/Images/back.svg) #8362c2;
+  background: url(../Styles/Images/back.svg) #8362c2;
   background-repeat: no-repeat;
   background-size: cover;
   color: azure;
@@ -86,10 +86,10 @@ section {
   border: 5px;
   padding: 20px;
   background-color: #452d72;
-  height: 210px;
   border-radius: 20px;
   cursor: pointer;
   margin: 0 10px 0 10px;
+  height: 210px;
 }
 
 .buttons:hover {
