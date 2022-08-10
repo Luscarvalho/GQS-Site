@@ -61,6 +61,7 @@ header {
 img {
   width: 300px;
   height: 300px;
+  cursor: pointer;
 }
 
 .img1 {
@@ -76,10 +77,6 @@ img {
 
 #esq {
   margin-left: 120px;
-}
-
-section {
-  margin-bottom: 20px;
 }
 
 .buttons {
@@ -124,30 +121,16 @@ strong {
 
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 15px;
-  background-color: #8362c2;
   color: azure;
 }
 
 h2 {
   font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.5rem;
+  color: azure;
 }
 
 .title {
   text-align: center;
-  margin-bottom: 70px;
-}
-
-.title1 {
-  margin-bottom: 10px;
-}
-
-span {
-  font-size: 0.8rem;
 }
 
 a {
@@ -155,12 +138,11 @@ a {
   color: azure;
 }
 
-#texto1 {
-  margin-top: 70px;
-  margin-bottom: 40px;
+#espace {
+  margin-bottom: 70px;
 }
 
-#texto2 {
-  margin-top: 50px;
-  margin-bottom: 40px;
+#espace2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
