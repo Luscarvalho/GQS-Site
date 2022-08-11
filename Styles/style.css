@@ -203,3 +203,18 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.testes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.testes div {
+  padding: 26px;
+}
+
+.iconteste {
+  width: 250px;
+  height: 250px;
+}
